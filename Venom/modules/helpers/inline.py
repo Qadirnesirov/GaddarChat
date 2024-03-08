@@ -27,7 +27,7 @@ DEV_OP = [
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="➕ Qrupa Əlavə Et ➕",",
+            text="➕ Qrupa Əlavə Et ➕",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
     ],
