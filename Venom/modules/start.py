@@ -30,7 +30,7 @@ async def start(_, m: Message):
             text=random.choice(EMOJIOS),
         )
         await asyncio.sleep(1.3)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ ѕтαятιиg..__")
+        await accha.edit("__salam yazıram..__")
         await asyncio.sleep(0.2)
         await accha.edit("__ᴅιиg ᴅσиg ꨄ sтαятιиg.....__")
         await asyncio.sleep(0.2)
