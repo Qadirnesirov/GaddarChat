@@ -6,34 +6,34 @@ from Venom import VenomX
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🥀 QURUCU 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="🤖 BOTLARIM🤖 ",url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
+            text="➕ Qrupa Əlavə Et ➕",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀", callback_data="HELP"),
+        InlineKeyboardButton(text="📚 Əmrlər", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        InlineKeyboardButton(text="🖥️REPOM🖥️", callback_data="SOURCE"),
+        InlineKeyboardButton(text="BOT HAQQINDA", callback_data="ABOUT"),
     ],
 ]
 
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
+            text="➕ Qrupa Əlavə Et ➕",",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="✨ ᴄʟᴏsᴇ ✨",
+            text="BITDI"
             callback_data="CLOSE",
         ),
     ],
@@ -42,26 +42,26 @@ PNG_BTN = [
 
 BACK = [
     [
-        InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+        InlineKeyboardButton(text="GERİ" callback_data="BACK"),
     ],
 ]
 
 
 HELP_BTN = [
     [
-        InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
-        InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
+        InlineKeyboardButton(text="KANALIM", callback_data="CHATBOT_CMD"),
+        InlineKeyboardButton(text="🤖BOTLARIM🤖", callback_data="TOOLS_DATA"),
     ],
     [
-        InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
-        InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+        InlineKeyboardButton(text="GERİ" callback_data="BACK"),
+        InlineKeyboardButton(text="BITDI", callback_data="CLOSE"),
     ],
 ]
 
 
 CLOSE_BTN = [
     [
-        InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+        InlineKeyboardButton(text="BITDI", callback_data="CLOSE"),
     ],
 ]
 
