@@ -54,14 +54,14 @@ HELP_BTN = [
     ],
     [
         InlineKeyboardButton(text="GERİ" callback_data="BACK"),
-        InlineKeyboardButton(text="BITDI", callback_data="CLOSE"),
+        InlineKeyboardButton(text="close", callback_data="CLOSE"),
     ],
 ]
 
 
 CLOSE_BTN = [
     [
-        InlineKeyboardButton(text="BITDI", callback_data="CLOSE"),
+        InlineKeyboardButton(text="close", callback_data="CLOSE"),
     ],
 ]
 
