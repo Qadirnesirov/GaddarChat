@@ -4,14 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 27353035))
-API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "6306738739"))
-MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "Venom_Chatz")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "VenomOwners")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Venom_bolte_pubIic")
+API_ID = int(getenv("API_ID", 24066716))
+API_HASH = getenv("API_HASH", "09e30e6e0b1a4c71e43a055979c51b3b")
+BOT_TOKEN = getenv("BOT_TOKEN", "7061243389:AAG8bYrv6QHZwcbJEYiuGMblsMyJf27i6FE")
+OWNER_ID = int(getenv("OWNER_ID", "6184936428"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://nesirovq1997:qadir1997@cluster0.pavador.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "oToBoTBLoG")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "terapizim")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "oToBoToWNeR")
 
 # Random Start Images
 IMG = [
