@@ -31,7 +31,7 @@
     "MONGO_URL": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
       "required": true,
-      "value": "mongodb+srv://jaspperx:<jaspperx123>@gaddar.wujzbos.mongodb.net/?retryWrites=true&w=majority&appName=Gaddar"
+      "value": "mongodb+srv://jaspperx:jaspperx123@gaddar.wujzbos.mongodb.net/?retryWrites=true&w=majority&appName=Gaddar"
     },
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
