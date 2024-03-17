@@ -11,32 +11,32 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/venombolteop/ChatbotV2",
+  "repository": "https://github.com/Qadirnesirov/GaddarChat",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "24066716"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "09e30e6e0b1a4c71e43a055979c51b3b"
     },
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
       "required": true,
-      "value": ""
+      "value": "7065652833:AAFRb_StawRF5jxrO_8H__6pFbI81QvSn_w"
     },
     "MONGO_URL": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://jaspperx:<jaspperx123>@gaddar.wujzbos.mongodb.net/?retryWrites=true&w=majority&appName=Gaddar"
     },
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
       "required": true,
-      "value": "6306738739"
+      "value": "6820427851"
     }
   }
 }
